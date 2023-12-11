@@ -1,0 +1,228 @@
+html, div{
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+    background: url(./li.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.hero-section {
+    overflow: hidden;
+    padding: 158px 0 145px;
+    position: relative;
+}
+
+.hero-section .hero-bg {
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.primary-header .container1 {
+    max-width: 1272px !important;
+}
+
+.pup{
+    padding-top: 1.1rem !important;
+}
+
+.fi img{
+    width: 12rem !important;
+}
+
+.socials-link-wg {
+    display: flex;
+    gap: 14px;
+    padding-left: 2rem;
+}
+
+.socials-link-wg a.social-link {
+    align-items: center;
+    background: #f4f5ff;
+    border-radius: 100%;
+    display: flex;
+    height: 34px;
+    justify-content: center;
+    width: 34px;
+}
+
+.primary-header .container1 .row1 nav {
+    margin-left: 80px !important;
+}
+
+.primary-header .container1 .row1 nav a:not(:last-child) {
+    margin-right: 30px !important;
+}
+
+.primary-header .container1 .row1 nav a {
+    color: #302b7b;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.primary-header {
+    padding: 38px 0 0;
+    position: fixed;
+    top: 0;
+    transition: padding .3s cubic-bezier(.25,.46,.45,.94),background-color .3s cubic-bezier(.25,.46,.45,.94);
+    width: 100%;
+    z-index: 99;
+}
+
+.container1 .row1 .btn-wrap1 {
+    margin-left: auto;
+}
+
+.btn--primary-border {
+    border: 2px solid #4b52d6;
+    color: #4b52d6;
+    padding: 14px 16px 15px;
+    transition: background .3s cubic-bezier(.25,.46,.45,.94),color .3s cubic-bezier(.25,.46,.45,.94);
+}
+
+.container1 .row1 .btn-wrap a {
+    padding: 14px 21px 15px;
+}
+
+.itu{
+    color: #302b7b;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    padding-right: 2rem;
+}
+
+.lip{
+    padding-right: 2rem;
+}
+
+.container1 {
+    margin: 0 auto;
+    max-width: 1064px;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.row1 {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.content-wrap {
+    position: relative;
+    z-index: 3;
+}
+
+.content-wrap>h1 {
+    color: #302b7b;
+    font-family: Space Grotesk,sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 67px;
+    margin-bottom: 30px;
+    max-width: 521px;
+    position: relative;
+}
+
+.content-wrap>.text-wrap {
+    padding-left: 24px;
+    position: relative;
+}
+
+.content-wrap>.btn-wrap {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    max-width: 278px;
+    padding-left: 24px;
+}
+
+.content-wrap>.text-wrap:before {
+    background: #e54dfc;
+    border-radius: 37px;
+    content: "";
+    height: 88.7323943662%;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 2px;
+}
+
+.content-wrap>.text-wrap p {
+    color: rgba(48,43,123,.8);
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 408px;
+}
+
+.content-wrap>.btn-wrap a {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    flex: 0 0 100%;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.btn--primary {
+    background: #4b52d6;
+    border: 0;
+    color: #fff;
+    padding: 14px 16px;
+    transition: background .3s cubic-bezier(.25,.46,.45,.94);
+}
+
+.btn {
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    padding: 14px 16px 15px;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 860px){
+    .non{
+        display: none !important;
+    }
+    .fi img{
+        width: 7rem !important;
+    }
+    .btn--primary-border{
+        padding: 7px 6px 5px;
+    }
+    .container1 .row1 .btn-wrap1{
+        margin: 0 !important;
+    }
+    .lip{
+        padding: 0;
+    }
+}
