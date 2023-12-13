@@ -79,7 +79,7 @@ function DrawerAppBar(props) {
             MUI
           </Typography>*/}
             <div className='container1 pup'>
-              <div className='row1'>
+              <div className='row1 tipi'>
                 <Link href="#" className='lip fi'>
                   <img src={logo}></img>
                 </Link>
@@ -92,8 +92,8 @@ function DrawerAppBar(props) {
                   <Link href="#" className='itu non'>
                     <Typography className=''>Staking (coming soon)</Typography>
                   </Link>
-                <div className='btn-wrap1'>
-                  <a href="" class="btn btn--primary-border">Launching Soon</a>
+                <div className='btn-wrap1 non'>
+                  <a href="" class="btn btn--primary-border non">Launching Soon</a>
                 </div>
 
                 <div className='socials-link-wg non'>

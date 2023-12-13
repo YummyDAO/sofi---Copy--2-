@@ -5,7 +5,7 @@ html, div{
     padding: 0;
     vertical-align: baseline;
 }
-body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+body, .css-4t3x6l-MuiPaper-root-MuiDrawer-paper, .css-wf16b5{
     background: url(./li.png) !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -209,6 +209,11 @@ a {
     justify-content: center;
 }
 
+.tipi{
+    width: 100%;
+    justify-content: space-between;
+}
+
 @media (max-width: 860px){
     .non{
         display: none !important;
@@ -217,7 +222,7 @@ a {
         width: 7rem !important;
     }
     .btn--primary-border{
-        padding: 7px 6px 5px;
+        padding: 11px 10px 9px;
     }
     .container1 .row1 .btn-wrap1{
         margin: 0 !important;
