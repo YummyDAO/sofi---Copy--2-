@@ -161,7 +161,7 @@ function DrawerAppBar(props) {
                   <a href="" class="btn btn--primary">Launching Soon</a>
                 </div>
               </div>
-              <img className=''src={doge}></img>
+              <img className='foot'src={doge}></img>
             </div>
           </div>
         </div>
