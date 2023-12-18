@@ -16,7 +16,8 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
 import './App1.css';
-import logo from "./logo100.png"
+import logo from "./logo300.png"
+import doge from './Doge_Coin.svg'
 import arrow from "./arrow.svg"
 import favicon from "./logo12.png"
 import burger from "./burger.svg"
@@ -160,6 +161,7 @@ function DrawerAppBar(props) {
                   <a href="" class="btn btn--primary">Launching Soon</a>
                 </div>
               </div>
+              <img className=''src={doge}></img>
             </div>
           </div>
         </div>
