@@ -232,4 +232,7 @@ a {
     .lip{
         padding: 0;
     }
+    .hero-section{
+        padding: 20px 0 20px !important;
+    }
 }
