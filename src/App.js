@@ -87,14 +87,13 @@ function DrawerAppBar(props) {
                   <Link href="https://dualbit.gitbook.io/dualbit/" className='itu non'>
                     <Typography className=''>Docs</Typography>
                   </Link>
-                  <Link href="#" className='itu non'>
-                    <Typography className=''>Bridge (coming soon)</Typography>
+                  <Link href="https://alphabridge.dualbit.exchange/" className='itu non'>
+                    <Typography className=''>Bridge</Typography>
                   </Link>
                   <Link href="#" className='itu non'>
                     <Typography className=''>Staking (coming soon)</Typography>
                   </Link>
                 <div className='btn-wrap1 non'>
-                  <a href="" class="btn btn--primary-border non">Launching Soon</a>
                 </div>
 
                 <div className='socials-link-wg non'>
