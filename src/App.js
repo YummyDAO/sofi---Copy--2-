@@ -157,7 +157,7 @@ function DrawerAppBar(props) {
                   <p>DualBit is the first-ever dual-sided bridge designed for easy cross-network transfers between DRC20 and ERC20 tokens</p>
                 </div>
                 <div className='btn-wrap'>
-                  <a href="" class="btn btn--primary">Launching Soon</a>
+                  <a href="https://alphabridge.dualbit.exchange/" class="btn btn--primary">Alpha Bridge</a>
                 </div>
               </div>
               <img className='foot'src={doge}></img>
