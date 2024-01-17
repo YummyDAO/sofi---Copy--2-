@@ -45,8 +45,8 @@ function DrawerAppBar(props) {
       <Link href="https://dualbit.gitbook.io/dualbit/" className='itu'>
         <Typography className=''>Docs</Typography>
       </Link>
-      <Link href="#" className='itu'>
-        <Typography className=''>Bridge (coming soon)</Typography>
+      <Link href="https://alphabridge.dualbit.exchange/" className='itu'>
+        <Typography className=''>Bridge</Typography>
       </Link>
       <Link href="#" className='itu'>
         <Typography className=''>Staking (coming soon)</Typography>
